@@ -1,0 +1,28 @@
+@media (max-width:600px) {
+    .card{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        /* gap: 40px; */
+      }
+    .contact-info{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        /* gap: 50px; */
+    
+      }
+      p{
+        width: 100px;
+      }
+      .contact-img{
+        border-radius: 50%;
+        position: relative;
+        left: 76px;
+      }
+}

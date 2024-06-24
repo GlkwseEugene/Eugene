@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+  nav{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: 1px solid white;
+  }
+  nav ul{
+    display: flex;
+
+  }
+  nav ul li{
+    margin: 10px;
+    color: gold;
+    text-transform: capitalize;    
+  }
+  .logo a{
+    color: gold;
+    font-size: 20px;
+
+  }
+  .bg{
+    background: url(/img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gf{
+    color: gold;
+    font-size: 40px;
+    
+
+  }
+  .text{
+    position: relative;
+    top: 470px;
+    left: 570px;
+
+  }
+  .next{
+    min-height: 100vh;
+    padding-top: 80px;
+  }
+  .about{
+    background: url(/img/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    height: 400px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .about-text{
+    width: 500px;
+    font-size: larger;
+
+  }
+  h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+
+  }
+  .project{
+    min-height: 100vh;
+    padding-top: 80px;
+    background: black;
+  }
+  .project-text{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: white;
+    
+  }
+  .contact{
+    min-height: 100vh;
+    padding-top: 50px;
+
+  }
+  .contact-info{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* gap: 50px; */
+    line-height: 30px;
+    font-size:larger;
+    position: relative;
+    right: -640px;
+
+  }
+  .contact{
+    background: url(/img/po.jpg);
+  }
+
+  .txt-info{
+    width: 550px;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+  }
+  .card-1{
+    background: url(img/kame\ web.png);
+    height: 400px;
+    width: 500px;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .card-2{
+    background: url(img/v\ about.png);
+    height: 400px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+  }
+  .move{
+    margin-bottom: 50px;
+  }
